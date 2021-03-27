@@ -8,8 +8,8 @@ export default function JumbotronComponent() {
             <Jumbotron className="bg-transparent">
                 <div className="row">
                     <div className="col-sm align-self-center">
-                        <h1 style={{ fontSize: "4rem"}}>Christian <br/> Marquez</h1>
-                        <p>
+                        <h1 id="name">Christian Marquez</h1>
+                        <p id="">
                             I am a Full-Stack developer, eager to continue learning and contribute to big projects.
                             Full-time developer, part-time nerd, free-time gamer.
                         </p>

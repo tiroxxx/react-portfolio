@@ -31,7 +31,9 @@ export default function Projects() {
                         they no longer use. Technologies used include HTML, CSS, JavaScript,
                         React, MongoDB, Mongoose, Express, Auth0, RESTful APIs, MD Bootstrap and Bootstrap.
                     </p>
-                    <a href="https://github.com/irasar/SubAway" target="_blank"><i class="fab fa-github-square" style={{ fontSize: "2rem" }}></i></a>
+                    <a href="https://github.com/irasar/SubAway" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2rem" }}></i>
+                    </a>
                 </div>
             </div>
             <div className="row bg-success">
@@ -52,7 +54,9 @@ export default function Projects() {
                         wines that compliment this dish. Technologies used include HTML,
                         CSS, JavaScript, jQuery, RESTful APIs and the Materialize framework.
                     </p>
-                    <a href="https://github.com/andrewrb22/-.theFederationOfCoders-" target="_blank"><i class="fab fa-github-square" style={{ fontSize: "2rem" }}></i></a>
+                    <a href="https://github.com/andrewrb22/-.theFederationOfCoders-" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2rem" }}></i>
+                    </a>
                 </div>
             </div>
             <div className="row bg-success">
@@ -73,7 +77,9 @@ export default function Projects() {
                         wherever they may need them. Technologies include HTML, CSS, JavaScript,
                         React, React-Bootstrap, and Bootstrap.
                     </p>
-                    <a href="https://github.com/tiroxxx/CloudPersonalStorage" target="_blank"><i class="fab fa-github-square" style={{ fontSize: "2rem" }}></i></a>
+                    <a href="https://github.com/tiroxxx/CloudPersonalStorage" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2rem" }}></i>
+                    </a>
                 </div>
             </div>
             <div className="row bg-success">
@@ -95,7 +101,9 @@ export default function Projects() {
                         framework.
 
                     </p>
-                    <a href="https://github.com/tiroxxx/spotify-clone" target="_blank"><i class="fab fa-github-square" style={{ fontSize: "2rem" }}></i></a>
+                    <a href="https://github.com/tiroxxx/spotify-clone" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2rem" }}></i>
+                    </a>
                 </div>
             </div>
             <div className="row bg-success">
@@ -116,7 +124,9 @@ export default function Projects() {
                         or even select books from the recommended section.
                         Technologies include HTML, CSS, JavaScript, jQuery, MySQL, Sequelize, Express, and the Bulma framework.
                     </p>
-                    <a href="https://github.com/brigil/Bookmark" target="_blank"><i class="fab fa-github-square" style={{ fontSize: "2rem" }}></i></a>
+                    <a href="https://github.com/brigil/Bookmark" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2rem" }}></i>
+                    </a>
                 </div>
             </div>
         </div>

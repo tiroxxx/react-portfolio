@@ -1,10 +1,10 @@
 import React from 'react'
-import { Bar } from "react-chartjs-2"
+import { HorizontalBar } from "react-chartjs-2"
 
 export default function Graph() {
     return (
         <>
-            <Bar
+            <HorizontalBar
                 data={{
                     labels: ['HTML'
                         , 'CSS', 'JavaScript',
@@ -25,12 +25,12 @@ export default function Graph() {
                     scales: {
                         yAxes: [{
                             ticks: {
-                                beginAtZero: true,
                                 fontColor: "white"
                             }
                         }],
                         xAxes: [{
                             ticks: {
+                                beginAtZero: true,
                                 fontColor: "white"
                             }
                         }],

@@ -17,6 +17,14 @@ export default function Footer() {
                 >
                     LinkedIn
                 </a>
+                <br />
+                <a
+                    href="https://github.com/tiroxxx"
+                    target="_blank"
+                    style={{ textDecoration: "none" }}
+                >
+                    GitHub
+                </a>
             </div>
         </div>
     )
