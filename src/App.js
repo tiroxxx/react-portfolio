@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe"
+import Footer from "./components/Footer"
 import JumbotronComponent from "./components/Jumbotron"
 import NavbarComponent from "./components/Navbar"
 import Projects from "./components/Projects"
@@ -10,6 +11,7 @@ function App() {
       <JumbotronComponent />
       <AboutMe />
       <Projects />
+      <Footer />
     </div>
   );
 }
