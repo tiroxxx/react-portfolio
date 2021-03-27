@@ -4,6 +4,7 @@ import Graph from './Graph'
 export default function AboutMe() {
     return (
         <>
+        <div className="container-fluid">
             <div className="row" style={{ backgroundColor: "#017a0d" }}>
                 <div className="col-sm" style={{ color: "white" }}>
                     <h3 >About Me</h3>
@@ -15,6 +16,7 @@ export default function AboutMe() {
                     <Graph />
                 </div>
             </div>
+        </div>
         </>
     )
 }
