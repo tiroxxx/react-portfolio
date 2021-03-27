@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe"
 import JumbotronComponent from "./components/Jumbotron"
 import NavbarComponent from "./components/Navbar"
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <NavbarComponent />
       <JumbotronComponent />
+      <AboutMe />
     </div>
   );
 }
