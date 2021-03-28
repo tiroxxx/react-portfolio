@@ -9,7 +9,7 @@ export default function JumbotronComponent() {
                 <div className="row">
                     <div className="col-sm align-self-center">
                         <h1 id="name">Christian Marquez</h1>
-                        <p style={{ color: "#23286b", fontSize: "18px" }}>
+                        <p style={{ color: "#23286b", fontSize: "22px", fontFamily: 'DM Sans, sans-serif' }}>
                             <span style={{ fontWeight: "700" }}>I am a Full-Stack developer, </span>
                             eager to continue learning and contribute to big projects.
                             <span style={{ fontWeight: "700" }}> Full-time developer, part-time nerd, free-time gamer.</span>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { HorizontalBar } from "react-chartjs-2"
+import { HorizontalBar, defaults } from "react-chartjs-2"
+
 
 export default function Graph() {
     return (
@@ -34,7 +35,8 @@ export default function Graph() {
                     scales: {
                         yAxes: [{
                             ticks: {
-                                fontColor: "white"
+                                fontColor: "white",
+                                fontSize: "20"
                             }
                         }],
                         xAxes: [{
