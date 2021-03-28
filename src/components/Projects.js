@@ -7,10 +7,10 @@ import wineDines from "../images/wine&dines.JPG"
 export default function Projects() {
     return (
         <div className="container-fluid">
-            <div className="text-center">
-                <h2 style={{ color: "#f1b522" }}>
+            <div className="text-center my-4">
+                <h2 style={{ fontSize: "55px", fontFamily: "Times New Roman", color: "#f1b522", fontWeight: "700" }}>
                     Projects
-            </h2>
+                </h2>
             </div>
             <div className="row bg-success">
                 <div className="col-sm">
