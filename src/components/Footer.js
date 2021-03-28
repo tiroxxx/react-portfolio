@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="row text-center">
+        <div className="container-fluid row text-center">
             <div className="col-sm">
                 <h3>Christian Marquez</h3>
             </div>

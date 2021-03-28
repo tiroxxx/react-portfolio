@@ -9,13 +9,14 @@ export default function JumbotronComponent() {
                 <div className="row">
                     <div className="col-sm align-self-center">
                         <h1 id="name">Christian Marquez</h1>
-                        <p id="">
-                            I am a Full-Stack developer, eager to continue learning and contribute to big projects.
-                            Full-time developer, part-time nerd, free-time gamer.
+                        <p style={{ color: "#23286b", fontSize: "18px" }}>
+                            <span style={{ fontWeight: "700" }}>I am a Full-Stack developer, </span>
+                            eager to continue learning and contribute to big projects.
+                            <span style={{ fontWeight: "700" }}> Full-time developer, part-time nerd, free-time gamer.</span>
                         </p>
                     </div>
                     <div className="col-sm mx-auto text-center">
-                        <Image src={PortfolioPicture} alt="Christian Marquez" fluid roundedCircle/>
+                        <Image src={PortfolioPicture} alt="Christian Marquez" fluid roundedCircle />
                     </div>
                 </div>
             </Jumbotron>

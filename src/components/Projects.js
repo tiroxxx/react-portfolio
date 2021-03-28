@@ -28,7 +28,7 @@ export default function Projects() {
                         SubAway is a Full Stack MEARN application where the user will enter their
                         subscriptions and they will be displayed in the order they are due.
                         This allows the user to cancel any subscriptions about to renew that
-                        they no longer use. Technologies used include HTML, CSS, JavaScript,
+                        they no longer use. Technologies include HTML, CSS, JavaScript,
                         React, MongoDB, Mongoose, Express, Auth0, RESTful APIs, MD Bootstrap and Bootstrap.
                     </p>
                     <a href="https://github.com/irasar/SubAway" target="_blank">
@@ -51,7 +51,7 @@ export default function Projects() {
                     <p>
                         With Wine & Dines the user can choose from four of the provided
                         proteins and a recipe will be randomly selected and be paired with
-                        wines that compliment this dish. Technologies used include HTML,
+                        wines that compliment this dish. Technologies include HTML,
                         CSS, JavaScript, jQuery, RESTful APIs and the Materialize framework.
                     </p>
                     <a href="https://github.com/andrewrb22/-.theFederationOfCoders-" target="_blank">
@@ -96,7 +96,7 @@ export default function Projects() {
                     </a>
                     <p>
                         Powered by the Spotify API, with Spotify Lyrical you can get the lyrics for
-                        the songs you know and love using your spotify account. Technologies used
+                        the songs you know and love using your spotify account. Technologies
                         include HTML, CSS, JavaScript, React, Express, RESTful APIs, and the Bootstrap
                         framework.
 
