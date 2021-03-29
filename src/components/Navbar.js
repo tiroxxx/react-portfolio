@@ -1,27 +1,21 @@
 import React from 'react'
-import { Nav, Navbar, NavDropdown } from "react-bootstrap"
+import { Nav, Navbar } from "react-bootstrap"
+import Resume from "../images/Resume-2021.pdf"
 
 
 export default function NavbarComponent() {
     return (
-        <>
-            <Navbar bg="transparent" expand="lg">
-                <Navbar.Brand href="#home">Christian Marquez</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
+            <Navbar   bg="transparent" expand="sm" className="justify-content-end">
+                <Navbar.Toggle  aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse  id="basic-navbar-nav" className="justify-content-end">
+                    <Nav>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#contact-me">Contact</Nav.Link>
+                        <Nav.Link href="https://docs.google.com/document/d/1mhmS6JX3_NNkChotWAtlst8hFKwQpilhbxgTA-ro3Hk/edit?usp=sharing" rel="noreferrer noopener">Resume</Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/christian-marquez-286a211b2/" target="_blank">linkedin</Nav.Link>
+                        <Nav.Link href="https://github.com/tiroxxx" target="_blank">Github</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </>
     )
 }

@@ -37,7 +37,7 @@ export default function Graph() {
                         yAxes: [{
                             ticks: {
                                 fontColor: "white",
-                                fontSize: "20"
+                                fontSize: "15"
                             }
                         }],
                         xAxes: [{

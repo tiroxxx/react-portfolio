@@ -14,7 +14,7 @@ export default function AboutMe() {
                     <div className="offset-lg-2 col-lg-3 align-self-center">
                         <p style={{ fontFamily: "DM Sans, sans-serif", fontSize: "18px", marginBottom: "40px" }}>
                             Love JavaScript and React. Node is cool too.
-                            Proficient with the MERN stack. Main focus is developing
+                            Proficient with the MERN stack while focusing in developing
                             mobile first applications that people enjoy using.
                         </p>
                     </div>

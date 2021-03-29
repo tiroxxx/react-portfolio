@@ -8,7 +8,7 @@ import SpotifyLyrical from "../images/spotify-lyrical.png"
 
 export default function Projects() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="projects">
             <div className="text-center my-4">
                 <h2 style={{ fontSize: "55px", fontFamily: "Times New Roman", color: "#f1b522", fontWeight: "700" }}>
                     Projects
@@ -19,19 +19,16 @@ export default function Projects() {
                     <Image src={SubAway} fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
-                    <a
+                    <a className="project-titles mt-3 link"
                         href="https://subaway.herokuapp.com/"
                         target="_blank"
-                        style={{ textDecoration: "none", color: "#f1b522" }}
+                        style={{ textDecoration: "none" }}
                     >
-                        <h3 className="project-titles mt-3">
-                            SubAway
-                            <a className="ml-2" href="https://github.com/irasar/SubAway" target="_blank">
-                                <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b503" }}></i>
-                            </a>
-                        </h3>
+                        SubAway
                     </a>
-
+                    <a className="ml-2" href="https://github.com/irasar/SubAway" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b522" }}></i>
+                    </a>
                     <p className="project-description">
                         SubAway is a Full Stack MEARN application where the user will enter their
                         subscriptions and they will be displayed in the order they are due.
@@ -51,20 +48,16 @@ export default function Projects() {
                     <Image src={WineDines} fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
-
-                    <h3 className="project-titles mt-3">
-                        <a
-                            href="https://andrewrb22.github.io/-.theFederationOfCoders-/"
-                            target="_blank"
-                            style={{ textDecoration: "none", color: "#f1b522" }}
-                        >
-                            Wine & Dines
-                        </a>
-                        <a className="ml-2" href="https://github.com/andrewrb22/-.theFederationOfCoders-" target="_blank">
-                            <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b503" }}></i>
-                        </a>
-                    </h3>
-
+                    <a className="project-titles mt-3"
+                        href="https://andrewrb22.github.io/-.theFederationOfCoders-/"
+                        target="_blank"
+                        style={{ textDecoration: "none", }}
+                    >
+                        Wine & Dines
+                    </a>
+                    <a className="ml-2" href="https://github.com/andrewrb22/-.theFederationOfCoders-" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b522" }}></i>
+                    </a>
                     <p className="project-description">
                         With Wine & Dines the user can choose from four of the provided
                         proteins and a recipe will be randomly selected and be paired with
@@ -83,20 +76,16 @@ export default function Projects() {
                     <Image src={PersonalCloud} atl="cloud storage" fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
-
-                    <h3 className="project-titles mt-3">
-                        <a
-                            href="https://cloud-personal-storage.web.app/login"
-                            target="_blank"
-                            style={{ textDecoration: "none", color: "#f1b522" }}
-                        >
-                            Personal Cloud Storage
-                        </a>
-                        <a className="ml-2" href="https://github.com/tiroxxx/CloudPersonalStorage" target="_blank">
-                            <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b503" }}></i>
-                        </a>
-                    </h3>
-
+                    <a className="project-titles mt-3"
+                        href="https://cloud-personal-storage.web.app/login"
+                        target="_blank"
+                        style={{ textDecoration: "none" }}
+                    >
+                        Personal Cloud Storage
+                    </a>
+                    <a className="ml-2" href="https://github.com/tiroxxx/CloudPersonalStorage" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b522" }}></i>
+                    </a>
                     <p className="project-description">
                         This app is powered by Firebase Authentication, Storage, and Firestore.
                         With this app the user can store their files on the cloud and access them
@@ -113,20 +102,16 @@ export default function Projects() {
                     <Image src={SpotifyLyrical} atl="Spotify Lyrical" fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
-
-                    <h3 className="project-titles mt-3">
-                        <a
-                            href="https://spotify-lyrical.herokuapp.com/"
-                            target="_blank"
-                            style={{ textDecoration: "none", color: "#f1b522" }}
-                        >
-                            Spotify Lyrical
+                    <a className="project-titles mt-3"
+                        href="https://spotify-lyrical.herokuapp.com/"
+                        target="_blank"
+                        style={{ textDecoration: "none" }}
+                    >
+                        Spotify Lyrical
                         </a>
-                        <a className="ml-2" href="https://github.com/tiroxxx/spotify-clone" target="_blank">
-                            <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b503" }}></i>
-                        </a>
-                    </h3>
-
+                    <a className="ml-2" href="https://github.com/tiroxxx/spotify-clone" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b522" }}></i>
+                    </a>
                     <p className="project-description">
                         Powered by the Spotify API, with Spotify Lyrical you can get the lyrics for
                         the songs you know and love using your spotify account.
@@ -144,20 +129,16 @@ export default function Projects() {
                     <Image src={Bookmark} alt="Bookmark" fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
-
-                    <h3 className="project-titles mt-3">
-                        <a
-                            href="https://whispering-cove-53195.herokuapp.com/loggedin"
-                            target="_blank"
-                            style={{ textDecoration: "none", color: "#f1b522" }}
-                        >
-                            Bookmark
+                    <a className="project-titles mt-3"
+                        href="https://whispering-cove-53195.herokuapp.com/loggedin"
+                        target="_blank"
+                        style={{ textDecoration: "none" }}
+                    >
+                        Bookmark
                         </a>
-                        <a className="ml-2" href="https://github.com/brigil/Bookmark" target="_blank">
-                            <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b503" }}></i>
-                        </a>
-                    </h3>
-
+                    <a className="ml-2" href="https://github.com/brigil/Bookmark" target="_blank">
+                        <i className="fab fa-github-square" style={{ fontSize: "2.5rem", color: "#f1b522" }}></i>
+                    </a>
                     <p className="project-description">
                         With Bookmark you can search for books inside our database,
                         learn about the book you selected with the synopsis,

@@ -9,7 +9,23 @@ export default function ContactMe() {
                         Or if you want to talk about Star Wars...
                     </p>
             <p className="contact-me">(352) 242-7902</p>
-            <p className="contact-me">christianmarquez41@gmail.com</p>
+            <p className="contact-me">
+                christianmarquez41@gmail.com
+                <a
+                    href="https://www.linkedin.com/in/christian-marquez-286a211b2/"
+                    target="_blank"
+                    style={{ textDecoration: "none" }}
+                >
+                    <i className="fab fa-linkedin ml-2" style={{ fontSize: "2.5rem", color: "white" }}></i>
+                </a>
+                <a
+                    href="https://github.com/tiroxxx"
+                    target="_blank"
+                    style={{ textDecoration: "none" }}
+                >
+                    <i className="fab fa-github-square ml-2" style={{ fontSize: "2.5rem", color: "white" }}></i>
+                </a>
+            </p>
         </div>
     )
 }

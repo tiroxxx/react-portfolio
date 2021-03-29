@@ -1,7 +1,12 @@
+.link:hover {
+    text-decoration: none;
+}
+
 .project-titles {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.4em;
     font-weight: 700;
+    color: #f1b522;
 }
 
 .project-description {
@@ -18,7 +23,7 @@
 #contact-me {
     background-color: #23286b;
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     color: white;
 }
 
@@ -32,7 +37,7 @@
 }
 
 #about-me {
-    padding-top: 120px;
+    padding-top: 40px;
     padding-bottom: 120px;
 }
 
