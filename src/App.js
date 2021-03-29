@@ -4,6 +4,7 @@ import JumbotronComponent from "./components/Jumbotron"
 import NavbarComponent from "./components/Navbar"
 import Projects from "./components/Projects"
 import "./App.css"
+import ContactMe from "./components/ContactMe"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <JumbotronComponent />
       <AboutMe />
       <Projects />
+      <ContactMe />
       <Footer />
     </div>
   );

@@ -10,8 +10,16 @@
     color: #23286b;
 }
 
-#footer {
+.contact-me {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#contact-me {
     background-color: #23286b;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color: white;
 }
 
 #name {
@@ -24,15 +32,16 @@
 }
 
 #about-me {
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 @media screen and (max-width: 768px) {
     #name {
         font-size: 55px;
     }
-
     #about-me {
-        padding: 60px 0 60px 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
