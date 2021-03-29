@@ -2,7 +2,9 @@ import React from 'react'
 import { Image } from 'react-bootstrap'
 import Bookmark from "../images/Bookmark.PNG"
 import SubAway from "../images/SubAway.PNG"
-import wineDines from "../images/wine&dines.JPG"
+import WineDines from "../images/wine&dines.JPG"
+import PersonalCloud from "../images/personal-cloud.png"
+import SpotifyLyrical from "../images/spotify-lyrical.png"
 
 export default function Projects() {
     return (
@@ -34,7 +36,10 @@ export default function Projects() {
                         SubAway is a Full Stack MEARN application where the user will enter their
                         subscriptions and they will be displayed in the order they are due.
                         This allows the user to cancel any subscriptions about to renew that
-                        they no longer use. <span style={{ fontWeight: "700" }}> Technologies include </span>
+                        they no longer use.
+                    </p>
+                    <p className="project-description">
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies: </span>
                         HTML, CSS, JavaScript, React, MongoDB, Mongoose, Express, Auth0, RESTful APIs,
                         MD Bootstrap and Bootstrap.
                     </p>
@@ -43,7 +48,7 @@ export default function Projects() {
             </div>
             <div className="my-5 row bg-transparent">
                 <div className="offset-lg-1 col-lg-6 align-self-center">
-                    <Image src={wineDines} fluid rounded />
+                    <Image src={WineDines} fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
 
@@ -63,14 +68,19 @@ export default function Projects() {
                     <p className="project-description">
                         With Wine & Dines the user can choose from four of the provided
                         proteins and a recipe will be randomly selected and be paired with
-                        wines that compliment this dish. <span style={{ fontWeight: "700" }}> Technologies include </span>
+                        wines that compliment this dish.
+                    </p>
+                    <p className="project-description">
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies: </span>
                         HTML, CSS, JavaScript, jQuery, RESTful APIs and the Materialize framework.
                     </p>
+
+
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
                 <div className="offset-lg-1 col-lg-6 align-self-center">
-                    <Image atl="cloud storage" fluid rounded />
+                    <Image src={PersonalCloud} atl="cloud storage" fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
 
@@ -90,14 +100,17 @@ export default function Projects() {
                     <p className="project-description">
                         This app is powered by Firebase Authentication, Storage, and Firestore.
                         With this app the user can store their files on the cloud and access them
-                        wherever they may need them. <span style={{ fontWeight: "700" }}> Technologies include </span>
+                        wherever they may need them.
+                    </p>
+                    <p className="project-description">
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies: </span>
                         HTML, CSS, JavaScript, React, React-Bootstrap, and Bootstrap.
                     </p>
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
                 <div className="offset-lg-1 col-lg-6 align-self-center">
-                    <Image atl="Spotify Lyrical" fluid rounded />
+                    <Image src={SpotifyLyrical} atl="Spotify Lyrical" fluid rounded />
                 </div>
                 <div className="col-lg-4 align-self-center">
 
@@ -117,7 +130,9 @@ export default function Projects() {
                     <p className="project-description">
                         Powered by the Spotify API, with Spotify Lyrical you can get the lyrics for
                         the songs you know and love using your spotify account.
-                        <span style={{ fontWeight: "700" }}> Technologies include </span>
+                    </p>
+                    <p className="project-description">
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies include </span>
                         HTML, CSS, JavaScript, React, Express, RESTful APIs, and the Bootstrap
                         framework.
 
@@ -147,7 +162,9 @@ export default function Projects() {
                         With Bookmark you can search for books inside our database,
                         learn about the book you selected with the synopsis,
                         or even select books from the recommended section.
-                        <span style={{ fontWeight: "700" }}> Technologies include </span> HTML, CSS, JavaScript, jQuery, MySQL, Sequelize, Express, and the Bulma framework.
+                    </p>
+                    <p className="project-description">
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies include </span> HTML, CSS, JavaScript, jQuery, MySQL, Sequelize, Express, and the Bulma framework.
                     </p>
                 </div>
             </div>
