@@ -1,6 +1,7 @@
 import React from 'react'
 import { Jumbotron, Image } from "react-bootstrap"
 import PortfolioPicture from "../images/Portfolio-Picture.jpg"
+import Resume from "../images/Resume-2021.pdf"
 
 export default function JumbotronComponent() {
     return (
