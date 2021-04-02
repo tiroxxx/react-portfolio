@@ -22,7 +22,7 @@ export default function Projects() {
                     <a className="project-titles mt-3 link"
                         href="https://subaway.herokuapp.com/"
                         target="_blank"
-                        style={{ textDecoration: "none" }}
+                        style={{  }}
                     >
                         SubAway
                     </a>

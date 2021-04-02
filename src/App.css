@@ -9,6 +9,10 @@
     color: #f1b522;
 }
 
+.project-titles:hover {
+    text-decoration: underline;
+}
+
 .project-description {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
