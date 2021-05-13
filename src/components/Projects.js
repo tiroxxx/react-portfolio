@@ -117,7 +117,7 @@ export default function Projects() {
                         the songs you know and love using your spotify account.
                     </p>
                     <p className="project-description">
-                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies include </span>
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies: </span>
                         HTML, CSS, JavaScript, React, Express, RESTful APIs, and the Bootstrap
                         framework.
 
@@ -145,7 +145,7 @@ export default function Projects() {
                         or even select books from the recommended section.
                     </p>
                     <p className="project-description">
-                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies include </span> HTML, CSS, JavaScript, jQuery, MySQL, Sequelize, Express, and the Bulma framework.
+                        <span style={{ fontWeight: "700", fontSize: "22px" }}> Technologies: </span> HTML, CSS, JavaScript, jQuery, MySQL, Sequelize, Express, and the Bulma framework.
                     </p>
                 </div>
             </div>
