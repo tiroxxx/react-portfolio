@@ -7,7 +7,7 @@ export default function AboutMe() {
 
     gsap.registerPlugin(ScrollTrigger)
     const ref = useRef(null)
-    //scroll animation for title
+    // scroll animation for title
     useEffect(() => {
         const element = ref.current
         gsap.fromTo(
@@ -29,7 +29,7 @@ export default function AboutMe() {
             },
         )
     }, [])
-    //scroll animation for synopsis
+    // scroll animation for synopsis
     useEffect(() => {
         const element = ref.current
         gsap.fromTo(
@@ -51,7 +51,7 @@ export default function AboutMe() {
             }
         )
     }, [])
-    //scroll animation for graph
+    // scroll animation for graph
     useEffect(() => {
         const element = ref.current
         gsap.fromTo(

@@ -11,7 +11,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 export default function Projects() {
     gsap.registerPlugin(ScrollTrigger)
     const ref = useRef(null)
-
+    // scroll animation for the title of the project section
     useEffect(() => {
         const element = ref.current
         gsap.fromTo(
@@ -33,7 +33,7 @@ export default function Projects() {
             },
         )
     }, [])
-
+    // scroll animation for the project pictures
     useEffect(() => {
         const element = ref.current
         const projects = gsap.utils.toArray(element.querySelectorAll(".project-picture"))
@@ -59,7 +59,7 @@ export default function Projects() {
             )
         })
     }, [])
-
+    // scroll animation for the project info
     useEffect(() => {
         const element = ref.current
         const projects = gsap.utils.toArray(element.querySelectorAll(".project-description"))
