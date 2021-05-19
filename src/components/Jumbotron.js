@@ -19,7 +19,7 @@ export default function JumbotronComponent() {
                 opacity: 1,
                 x: 0,
                 ease: Power3.easeOut,
-                duration: 2
+                duration: 1.5
             }
         )
     }, [])

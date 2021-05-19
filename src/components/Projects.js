@@ -1,28 +1,107 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import { Image } from 'react-bootstrap'
 import Bookmark from "../images/Bookmark.PNG"
 import SubAway from "../images/SubAway.PNG"
 import WineDines from "../images/wine&dines.JPG"
 import PersonalCloud from "../images/personal-cloud.png"
 import SpotifyLyrical from "../images/spotify-lyrical.png"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 export default function Projects() {
+    gsap.registerPlugin(ScrollTrigger)
+    const ref = useRef(null)
+
+    useEffect(() => {
+        const element = ref.current
+        gsap.fromTo(
+            element.querySelector("#projects-title"),
+            {
+                opacity: 0,
+                y: -80
+            },
+            {
+                opacity: 1,
+                y: 0,
+                scrollTrigger: {
+                    trigger: element.querySelector("#projects-title"),
+                    start: "200 80%",
+                    end: "300 70%",
+                    scrub: true,
+                    toggleActions: "restart none reverse none"
+                }
+            },
+        )
+    }, [])
+
+    useEffect(() => {
+        const element = ref.current
+        const projects = gsap.utils.toArray(element.querySelectorAll(".project-picture"))
+        console.log(projects);
+        projects.forEach(project => {
+            gsap.fromTo(
+                project,
+                {
+                    opacity: 0,
+                    x: -100
+                },
+                {
+                    opacity: 1,
+                    x: 0,
+                    scrollTrigger: {
+                        trigger: project,
+                        start: "center 80%",
+                        scrub: true,
+                        end: "+=50% 70%",
+                        toggleActions: "restart none reverse none"
+                    }
+                }
+            )
+        })
+    }, [])
+
+    useEffect(() => {
+        const element = ref.current
+        const projects = gsap.utils.toArray(element.querySelectorAll(".project-description"))
+        console.log(projects);
+        projects.forEach(project => {
+            gsap.fromTo(
+                project,
+                {
+                    opacity: 0,
+                    x: -100
+                },
+                {
+                    opacity: 1,
+                    x: 0,
+                    scrollTrigger: {
+                        trigger: project,
+                        start: "center 80%",
+                        scrub: true,
+                        end: "+=50% 70%",
+                        toggleActions: "restart none reverse none"
+                    }
+                }
+            )
+        })
+    }, [])
+
     return (
-        <div className="container-fluid" id="projects">
+        <div ref={ref} className="container-fluid" id="projects">
             <div className="text-center my-4">
-                <h2 style={{ fontSize: "55px", fontFamily: "Times New Roman", color: "#f1b522", fontWeight: "700" }}>
+                <h2 id="projects-title" style={{ fontSize: "55px", fontFamily: "Times New Roman", color: "#f1b522", fontWeight: "700" }}>
                     Projects
                 </h2>
             </div>
             <div className="my-5 row bg-transparent">
-                <div className="offset-lg-1 col-lg-6 align-self-center">
+                <div className="project-picture offset-lg-1 col-lg-6 align-self-center">
                     <Image src={SubAway} fluid rounded />
                 </div>
-                <div className="col-lg-4 align-self-center">
+                <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3 link"
                         href="https://subaway.herokuapp.com/"
                         target="_blank"
-                        style={{  }}
+                        style={{}}
                     >
                         SubAway
                     </a>
@@ -44,10 +123,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
-                <div className="offset-lg-1 col-lg-6 align-self-center">
+                <div className="project-picture offset-lg-1 col-lg-6 align-self-center">
                     <Image src={WineDines} fluid rounded />
                 </div>
-                <div className="col-lg-4 align-self-center">
+                <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3"
                         href="https://andrewrb22.github.io/-.theFederationOfCoders-/"
                         target="_blank"
@@ -72,10 +151,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
-                <div className="offset-lg-1 col-lg-6 align-self-center">
+                <div className="project-picture offset-lg-1 col-lg-6 align-self-center">
                     <Image src={PersonalCloud} atl="cloud storage" fluid rounded />
                 </div>
-                <div className="col-lg-4 align-self-center">
+                <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3"
                         href="https://cloud-personal-storage.web.app/login"
                         target="_blank"
@@ -98,10 +177,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
-                <div className="offset-lg-1 col-lg-6 align-self-center">
+                <div className="project-picture offset-lg-1 col-lg-6 align-self-center">
                     <Image src={SpotifyLyrical} atl="Spotify Lyrical" fluid rounded />
                 </div>
-                <div className="col-lg-4 align-self-center">
+                <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3"
                         href="https://spotify-lyrical.herokuapp.com/"
                         target="_blank"
@@ -125,10 +204,10 @@ export default function Projects() {
                 </div>
             </div>
             <div className="my-5 row bg-transparent">
-                <div className="offset-lg-1 col-lg-6 align-self-center">
+                <div className="project-picture offset-lg-1 col-lg-6 align-self-center">
                     <Image src={Bookmark} alt="Bookmark" fluid rounded />
                 </div>
-                <div className="col-lg-4 align-self-center">
+                <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3"
                         href="https://whispering-cove-53195.herokuapp.com/loggedin"
                         target="_blank"

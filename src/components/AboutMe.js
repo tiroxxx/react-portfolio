@@ -23,7 +23,6 @@ export default function AboutMe() {
                     trigger: element.querySelector("#about-me-title"),
                     start: "200 80%",
                     end: "300 70%",
-                    markers: true,
                     scrub: true,
                     toggleActions: "restart none reverse none"
                 }
