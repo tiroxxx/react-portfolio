@@ -182,7 +182,7 @@ export default function Projects() {
                 </div>
                 <div className="project-description col-lg-4 align-self-center">
                     <a className="project-titles mt-3"
-                        href="https://spotify-lyrical.herokuapp.com/"
+                        href="https://spotify-lyrical-59138.web.app/"
                         target="_blank"
                         style={{ textDecoration: "none" }}
                     >
